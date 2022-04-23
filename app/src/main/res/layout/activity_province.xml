@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ProvinceActivity">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/provinceName"
+            android:text="Province"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/provinceDeath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/provinceName"
+            android:layout_marginStart="145dp"
+            android:text="Deaths"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/provinceCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/provinceName"
+            android:layout_marginStart="220dp"
+            android:text="Cases"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/provinceCasesToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/provinceName"
+            android:layout_marginStart="320dp"
+            android:text="Today"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <Space
+        android:minHeight="10dp"
+        android:layout_height="10dp"
+        android:layout_width="match_parent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/provinceRecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
