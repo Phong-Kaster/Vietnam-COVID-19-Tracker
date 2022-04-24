@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,7 +9,60 @@
     <TextView
         android:layout_gravity="center"
         android:textSize="24sp"
-        android:text="Overview Activity"
+        android:text="Overview in 7 days"
+        android:textColor="#E91E63"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/overviewDateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Date"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/overviewDeathsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/overviewDateTitle"
+            android:layout_marginStart="90dp"
+            android:text="Deaths"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/overviewTreatingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/overviewDeathsTitle"
+            android:layout_marginStart="100dp"
+            android:text="Treating"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/overviewRecoveredTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/overviewTreatingTitle"
+            android:layout_marginStart="100dp"
+            android:text="Recovered"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <Space
+        android:minHeight="10dp"
+        android:layout_height="10dp"
+        android:layout_width="match_parent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/overviewRecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 </LinearLayout>

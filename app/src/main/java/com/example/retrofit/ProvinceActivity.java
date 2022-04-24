@@ -1,18 +1,14 @@
 package com.example.retrofit;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.ViewModel;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.widget.LinearLayout;
 
 import com.example.retrofit.Model.Container;
 import com.example.retrofit.Model.Location;
 import com.example.retrofit.RecycleView.ProvinceRecycleView;
-import com.example.retrofit.ViewModel.ProvinceViewModel;
 import com.example.retrofit.WebService.RetrofitInterface;
 import com.example.retrofit.WebService.RetrofitService;
 
@@ -25,7 +21,7 @@ import retrofit2.Retrofit;
 
 public class ProvinceActivity extends AppCompatActivity {
 
-    ProvinceViewModel viewModel;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

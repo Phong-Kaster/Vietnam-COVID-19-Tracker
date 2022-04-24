@@ -17,8 +17,8 @@ A lightweight Android application helps us following the process of Coronavirus 
 - [**How it spreads**](#how-it-spreads)
 - [**Architecture**](#architecture)
 - [**Data Source**](#data-source)
-- [**Features**](#features)
 - [**Video**](#video)
+- [**Features**](#features)
 - [**Made with 💘 and JAVA <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" width="60">**](#made-with--and-java-)
 
 # [**What is COVID-19 ?**](#what-is-covid-19)
@@ -40,7 +40,7 @@ I am a newbie to Android programming. I tried to build the application following
 
 
 <p align="center">
-    <img src="./photo/screenshot4.png" width="320" />
+    <img src="./photo/screenshot5.png" width="320" />
 </p>
 <h3 align="center">
 
@@ -178,34 +178,48 @@ If you have trouble with read the JSON-formatted data. You can try [**Code Beaut
     }
 
 
-
-
-
-# [**Features**](#features)
-
-As I said before, I am a limited-experienced one so that features in this application is so easy as ABC. You can see layout and tabs I have built up with there referenced photos right here: 
-
-<p align="center">
-    <img src="./photo/screenshot1.png" width="320" />
-    <img src="./photo/screenshot2.png" width="320" />
-    <img src="./photo/screenshot3.png" width="320" />
-</p>
-<h3 align="center">
-
-***There are 4 tabs. Each tab performs one important information differently***
-</h3>
-
 # [**Video**](#video)
 
 <div align="center">
     
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=ZtrGcIkKv4U&ab_channel=PhongKaster)
+
+[![Watch the video](https://img.youtube.com/vi/XwtOcyDSkzM/hqdefault.jpg)](https://youtu.be/XwtOcyDSkzM?list=PLkPVg51dQOybWORTScWY1ddflgnkiFhEW)
 
 </div>
 
 <h3 align="center">
 
 ***Video***
+
+
+
+# [**Features**](#features)
+
+As I said before, with respect to Android programming, I am a limited-experienced one so that features in this application is so easy as ABC. There are 4 tabs that shows each important information respectively:
+
+**PROVINCE** - presents deaths, cases and new cases from 63 provinces in Vietnam
+
+**TODAY** - describes number of people died by COVID-19, number of treating patients, total cases and new cases in the current day.
+
+**OVERVIEW** - demonstrates number of deaths / cases / treating / recovered people in the last 7 days 
+
+**TOTAL** - as the name of this tab, total statistics from all people who have been effected by Coronavirus COVID-19.
+
+ You can see layout and tabs I have built up with there referenced photos right here: 
+
+<p align="center">
+    <img src="./photo/screenshot1.png" width="320" height="640" />
+    <img src="./photo/screenshot2.png" width="320" height="640" />
+    <img src="./photo/screenshot4.png" width="320" height="640" />
+    <img src="./photo/screenshot3.png" width="320" height="640" />
+    
+</p>
+<h3 align="center">
+
+***There are 4 tabs. Each tab performs one important information differently***
+</h3>
+
+
 </h3>
  
 # [**Made with 💘 and JAVA <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" width="60">**](#made-with-love-and-php)

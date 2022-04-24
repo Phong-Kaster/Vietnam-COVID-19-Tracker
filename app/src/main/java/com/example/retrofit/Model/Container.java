@@ -1,5 +1,8 @@
 package com.example.retrofit.Model;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 import java.util.ArrayList;
 
 /**
@@ -11,6 +14,8 @@ public class Container {
     private Total total;
     private Today today;
 
+    @SerializedName("overview")
+    @Expose
     private ArrayList<Overview> overviews = new ArrayList<>();
     private ArrayList<Location> locations = new ArrayList<>();
 
