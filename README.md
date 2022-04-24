@@ -210,9 +210,8 @@ As I said before, with respect to Android programming, I am a limited-experience
 <p align="center">
     <img src="./photo/screenshot1.png" width="320" height="640" />
     <img src="./photo/screenshot2.png" width="320" height="640" />
-    <img src="./photo/screenshot4.png" width="320" height="640" />
     <img src="./photo/screenshot3.png" width="320" height="640" />
-    
+    <img src="./photo/screenshot4.png" width="320" height="640" />
 </p>
 <h3 align="center">
 
