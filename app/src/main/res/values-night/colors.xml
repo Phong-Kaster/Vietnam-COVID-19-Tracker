@@ -9,10 +9,11 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="colorPrimary">#6C63FF</color>
-    <color name="colorPrimaryDark">#6C63FF</color>
+    <color name="colorPrimaryDark">#2D313D</color>
     <color name="colorAccent">#03DAC5</color>
 
-    <color name="colorNormalText">#2D313D</color>
+    <color name="colorNormalText">#ffffff</color>
     <color name="colorAlternativeText">#8D8F97</color>
-    <color name="colorBackground">#ffffff</color>
+    <color name="colorBackground">#2D313D</color>
+
 </resources>

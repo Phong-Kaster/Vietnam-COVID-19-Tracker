@@ -9,13 +9,13 @@
 
     <!-- VIETNAM -->
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="24sp"
-        android:textStyle="bold"
         android:text="Vietnam"
         android:textColor="#E42D2D"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <Space
         android:layout_width="wrap_content"

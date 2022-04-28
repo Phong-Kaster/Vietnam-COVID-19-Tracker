@@ -1,12 +1,16 @@
 package com.example.retrofit;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.annotation.SuppressLint;
 import android.app.TabActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Switch;
 import android.widget.TabHost;
+import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import com.example.retrofit.Model.Container;
 import com.example.retrofit.Model.Location;
@@ -22,7 +26,6 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends TabActivity {
 
@@ -32,14 +35,18 @@ public class MainActivity extends TabActivity {
     private Today today;
     private Total total;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         establishTabhost();
         establishRetrofit();
+
     }
+
 
     private void establishTabhost() {
         TabHost tabHost = getTabHost();
@@ -63,7 +70,7 @@ public class MainActivity extends TabActivity {
         tabHost.addTab(todayTabSpec);
 
         /*TabSpec overviewActivity*/
-        TabHost.TabSpec overviewTabSpec = tabHost.newTabSpec("tab2");
+        TabHost.TabSpec overviewTabSpec = tabHost.newTabSpec("tab3");
         overviewTabSpec.setIndicator("Overview");
 
         intent = new Intent(this, OverviewActivity.class);
@@ -71,7 +78,7 @@ public class MainActivity extends TabActivity {
         tabHost.addTab(overviewTabSpec);
 
         /*TabSpec totalActivity*/
-        TabHost.TabSpec totalTabSpec = tabHost.newTabSpec("tab2");
+        TabHost.TabSpec totalTabSpec = tabHost.newTabSpec("tab4");
         totalTabSpec.setIndicator("Total");
 
         intent = new Intent(this, TotalActivity.class);

@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Retrofit</string>
+    <string name="app_name">Vietnam COVID-19 Tracker</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="turn_on_dark_mode">Turn on dark mode</string>
+    <string name="turn_off_dark_mode">Turn off dark mode</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

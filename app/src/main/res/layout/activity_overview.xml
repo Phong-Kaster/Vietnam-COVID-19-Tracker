@@ -7,12 +7,13 @@
     tools:context=".OverviewActivity">
 
     <TextView
-        android:layout_gravity="center"
-        android:textSize="24sp"
-        android:text="Overview in 7 days"
-        android:textColor="#E91E63"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Overview in 7 days"
+        android:textColor="#E42D2D"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <RelativeLayout
         android:layout_width="match_parent"

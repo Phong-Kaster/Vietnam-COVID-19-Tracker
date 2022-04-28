@@ -1,12 +1,28 @@
 package com.example.retrofit.Model;
 
+import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class Location {
+
+    @SerializedName("name")
+    @Expose
     private String name;
+
+    @SerializedName("death")
+    @Expose
     private int death;
+
+    @SerializedName("treating")
+    @Expose
     private int treatings;
+
+    @SerializedName("cases")
+    @Expose
     private int cases;
+
+    @SerializedName("recovered")
+    @Expose
     private int recovered;
 
     @SerializedName("casesToday")

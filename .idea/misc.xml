@@ -3,10 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/GitHub/Vietnam-COVID-19-Tracker/app/src/main/res/layout/activity_overview.xml" value="0.1" />
+        <entry key="..\:/GitHub/Vietnam-COVID-19-Tracker/app/src/main/res/layout/activity_main.xml" value="0.2436923148431724" />
+        <entry key="..\:/GitHub/Vietnam-COVID-19-Tracker/app/src/main/res/layout/activity_other.xml" value="0.171875" />
+        <entry key="..\:/GitHub/Vietnam-COVID-19-Tracker/app/src/main/res/layout/activity_overview.xml" value="0.18461539003270633" />
         <entry key="..\:/GitHub/Vietnam-COVID-19-Tracker/app/src/main/res/layout/activity_overview_element.xml" value="0.1" />
         <entry key="..\:/GitHub/Vietnam-COVID-19-Tracker/app/src/main/res/layout/activity_province.xml" value="0.1890625" />
         <entry key="..\:/GitHub/Vietnam-COVID-19-Tracker/app/src/main/res/layout/activity_province_element.xml" value="0.1890625" />
+        <entry key="..\:/GitHub/Vietnam-COVID-19-Tracker/app/src/main/res/layout/activity_setting.xml" value="0.1890625" />
+        <entry key="..\:/GitHub/Vietnam-COVID-19-Tracker/app/src/main/res/layout/activity_today.xml" value="0.1890625" />
+        <entry key="..\:/GitHub/Vietnam-COVID-19-Tracker/app/src/main/res/layout/activity_total.xml" value="0.12318840579710146" />
+        <entry key="..\:/GitHub/Vietnam-COVID-19-Tracker/app/src/main/res/layout/fragment_shortcut.xml" value="0.1890625" />
         <entry key="..\:/Users/phong/AndroidStudioProjects/Retrofit/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/phong/AndroidStudioProjects/Retrofit/app/src/main/res/layout/activity_overview.xml" value="0.1890625" />
         <entry key="..\:/Users/phong/AndroidStudioProjects/Retrofit/app/src/main/res/layout/activity_province.xml" value="0.494769245287653" />
