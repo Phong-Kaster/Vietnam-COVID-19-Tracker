@@ -16,6 +16,7 @@ A lightweight Android application helps us following the process of Coronavirus 
 - [**What is COVID-19 ?**](#what-is-covid-19-)
 - [**How it spreads**](#how-it-spreads)
 - [**Architecture**](#architecture)
+- [**Download**](#download)
 - [**Data Source**](#data-source)
 - [**Video**](#video)
 - [**Features**](#features)
@@ -46,6 +47,10 @@ I am a newbie to Android programming. I tried to build the application following
 
 ***My directory structure***
 </h3>
+
+# [**Download**](#download)
+
+You can easily download my COVID-19 application right [**here**](https://github.com/Phong-Kaster/Vietnam-COVID-19-Tracker/raw/main/app-debug.apk)
 
 # [**Data Source**](#data-source)
 
@@ -218,7 +223,5 @@ As I said before, with respect to Android programming, I am a limited-experience
 ***There are 4 tabs. Each tab performs one important information differently***
 </h3>
 
-
-</h3>
  
 # [**Made with 💘 and JAVA <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" width="60">**](#made-with-love-and-php)
