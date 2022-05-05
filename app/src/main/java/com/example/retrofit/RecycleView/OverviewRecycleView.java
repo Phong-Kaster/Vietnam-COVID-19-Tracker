@@ -11,6 +11,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.retrofit.Helper.Helper;
 import com.example.retrofit.Model.Overview;
 import com.example.retrofit.R;
 
@@ -45,9 +46,9 @@ public class OverviewRecycleView extends RecyclerView.Adapter<OverviewRecycleVie
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         String date = overviews.get(position).getDate();
-        String deaths = String.valueOf(overviews.get(position).getDeath() );
-        String treating = String.valueOf( overviews.get(position).getTreating() );
-        String recovered = String.valueOf( overviews.get(position).getRecovered());
+        String deaths = Helper.formatCardNumber(overviews.get(position).getDeath() );
+        String treating = Helper.formatCardNumber( overviews.get(position).getTreating() );
+        String recovered = Helper.formatCardNumber( overviews.get(position).getRecovered());
 
         holder.date.setText(date);
         holder.deaths.setText(deaths);

@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModelProvider;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.example.retrofit.Helper.Helper;
 import com.example.retrofit.Model.Today;
 import com.example.retrofit.ViewModel.TodayViewModel;
 
@@ -25,6 +26,10 @@ public class TodayActivity extends AppCompatActivity {
         establish();
     }
 
+    /**
+     * @author Phong-Kaster
+     * set up id with matched components
+     * */
     private void establishControl() {
         internalDeath = findViewById(R.id.todayInternalDeath);
         internalTreating = findViewById(R.id.todayInternalTreating);
@@ -37,6 +42,10 @@ public class TodayActivity extends AppCompatActivity {
         worldwideRecovered = findViewById(R.id.todayWorldwideRecovered);
     }
 
+    /**
+     * @author Phong-Kaster
+     * send HTTP Request to API
+     * */
     private void establish() {
         viewModel = new ViewModelProvider(this).get(TodayViewModel.class);
 
@@ -47,10 +56,10 @@ public class TodayActivity extends AppCompatActivity {
             public void onChanged(Today today) {
 
                 /** VIETNAM **/
-                String internalDeaths = String.valueOf( today.getInternal().getDeath() );
-                String internalTreatings = String.valueOf( today.getInternal().getTreating() );
-                String internalCasess = String.valueOf( today.getInternal().getCases() );
-                String internalRecovereds = String.valueOf( today.getInternal().getRecovered() );
+                String internalDeaths = Helper.formatCardNumber( today.getInternal().getDeath() );
+                String internalTreatings = Helper.formatCardNumber( today.getInternal().getTreating() );
+                String internalCasess = Helper.formatCardNumber(today.getInternal().getCases() );
+                String internalRecovereds = Helper.formatCardNumber( today.getInternal().getRecovered() );
 
 
                 internalDeath.setText( internalDeaths  );
@@ -59,10 +68,10 @@ public class TodayActivity extends AppCompatActivity {
                 internalRecovered.setText( internalRecovereds );
 
                 /** WORLDWIDE**/
-                String worldwideDeaths = String.valueOf( today.getWorldwide().getDeath() );
-                String worldwideTreatings = String.valueOf( today.getWorldwide().getTreating() );
-                String worldwideCasess = String.valueOf( today.getWorldwide().getCases() );
-                String worldwideRecovereds = String.valueOf( today.getWorldwide().getRecovered() );
+                String worldwideDeaths = Helper.formatCardNumber(today.getWorldwide().getDeath() );
+                String worldwideTreatings = Helper.formatCardNumber( today.getWorldwide().getTreating() );
+                String worldwideCasess =Helper.formatCardNumber(today.getWorldwide().getCases() );
+                String worldwideRecovereds = Helper.formatCardNumber(today.getWorldwide().getRecovered() );
 
 
                 worldwideDeath.setText( worldwideDeaths  );

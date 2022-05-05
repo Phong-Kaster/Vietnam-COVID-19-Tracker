@@ -13,6 +13,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.retrofit.Helper.Helper;
 import com.example.retrofit.Model.Location;
 import com.example.retrofit.Model.Today;
 import com.example.retrofit.R;
@@ -54,9 +55,9 @@ public class ProvinceRecycleView extends RecyclerView.Adapter<ProvinceRecycleVie
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
          String name = locations.get(position).getName();
-         String death = String.valueOf( locations.get(position).getDeath() ).trim();
-         String cases = String.valueOf( locations.get(position).getCases() ).trim();
-         String casesToday = String.valueOf( locations.get(position).getTodayCases() ).trim();
+         String death = Helper.formatCardNumber( locations.get(position).getDeath() );
+         String cases = Helper.formatCardNumber( locations.get(position).getCases() );
+         String casesToday = Helper.formatCardNumber( locations.get(position).getTodayCases() );
 
          holder.name.setText(name);
          holder.death.setText(death);
